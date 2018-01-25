@@ -13,7 +13,7 @@ from picamera import PiCamera
 import time
 
 try:
-        #This line looks in the sys module which lets you access command line arguments.  sysy.argv[1] is the input argument to the function
+        #This line looks in the sys module which lets you access command line arguments.  sys.argv[1] is the input argument to the function
         #if there is an input argument, the try statement is exicuted
 
         fn = sys.argv[1]
